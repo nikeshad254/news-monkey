@@ -90,6 +90,8 @@ export class News extends Component {
                       : "https://i.ytimg.com/vi/w_Ma8oQLmSM/maxresdefault.jpg"
                   }
                   newsUrl={element.url}
+                  author={element.author}
+                  date={element.publishedAt}
                 />
               </div>
             );
